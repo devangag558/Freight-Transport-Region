@@ -1,0 +1,23 @@
+spring:
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        - id: VehicleMS
+          uri: lb://VehicleMS
+          predicates:
+            - Path=/ftr/vehicles/**
+        - id: UserMS
+          uri: lb://UserMS
+          predicates:
+            - Path=/ftr/userProfile/**
+        - id: TerminalMS
+          uri: lb://TerminalMS
+          predicates:
+            - Path=/ftr/terminals/**
+        - id: WorkitemMS
+          uri: lb://WorkitemMS
+          predicates:
+            - Path=/ftr/workItems/**
