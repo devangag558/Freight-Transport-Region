@@ -1,0 +1,39 @@
+/* You can add global styles to this file, and also import other style files */
+.main {
+    background-image: url("https://images.techhive.com/images/article/2015/09/container-100614063-large.jpg?auto=webp&quality=85,70");
+    width: 1518px;
+    height: 728px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.flex-box{
+    display:flex;
+}
+.flex-box div{
+    padding:5px;
+    background-color: white;
+    border:1px solid black;
+    margin:2px; 
+}
+footer {
+    margin-top: 20px;
+    margin-bottom: -10px;
+    height: 30px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: brown;
+    color: white;
+  }
+  footer i,
+  p {
+    justify-content: left;
+  }
+  .footer-one,
+  .footer-three {
+    background-color: brown;
+  }
+  
