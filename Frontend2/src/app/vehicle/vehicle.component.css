@@ -1,0 +1,102 @@
+.error {
+  color: red;
+}
+
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.main {
+  background-image: url("https://images.techhive.com/images/article/2015/09/container-100614063-large.jpg?auto=webp&quality=85,70");
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h3 {
+  color: black;
+}
+.tableTop {
+  width: 70%;
+  margin: auto;
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 10px;
+  opacity: 0.7;
+  color: black;
+  background-color: white;
+  text-align: center;
+}
+input{
+  width:90%;
+  height:22px;
+}
+label{
+  color:black;
+  text-align: left;
+}
+.container-styles{
+  border:5px solid White;
+  /* justify-content: center;
+  text-align: center; */
+  margin-left: auto;
+  margin-right: auto;
+  Width:50%;
+}
+.container-styles div{
+  margin:5px;
+  /* padding:5px; */
+  font-weight: bold;
+  font-size:20px;
+}
+.left {
+  margin-right: auto;
+}
+.right {
+  margin: 10px;
+}
+button {
+  background-color: skyblue;
+}
+.middle{
+  justify-content: center;
+  /* text-align: center; */
+  opacity: 0.8;
+}
+table {
+  margin-top: 20px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.7;
+  border: solid;
+  color: black;
+  background-color: white;
+  text-align: center;
+}
+th,
+td {
+  border: solid;
+}
+footer {
+  margin-top: 20px;
+  margin-bottom: -10px;
+  height: 30px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: brown;
+  color: white;
+}
+footer i,
+p {
+  justify-content: left;
+}
+.footer-one,
+.footer-three {
+  background-color: brown;
+}
