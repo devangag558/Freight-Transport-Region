@@ -41,13 +41,13 @@ Each microservice runs independently and registers with **Consul** for discovery
 
 ## ⚙️ Architecture
 ```
- ┌──────────┐        ┌──────────┐       ┌──────────┐
- │  Client  │───────▶│ API GW   │──────▶│  Services │
- └──────────┘        │ (SCG)    │       │ (User,   │
-                     │          │       │ Terminal,│
-                     │          │       │ Vehicle, │
-                     │          │       │ Workitem)│
-                     └──────────┘       └──────────┘
+ ┌──────────┐         ┌──────────┐       ┌──────────┐
+ │  Client  │────────▶│ API GW  │──────▶│ Services │
+ └──────────┘         │ (SCG)    │       │ (User,   │
+                      │          │       │ Terminal,│
+                      │          │       │ Vehicle, │
+                      │          │       │ Workitem)│
+                      └──────────┘       └──────────┘
                           │                   │
                     ┌─────────────┐     ┌─────────────┐
                     │   Consul    │     │ Prometheus  │
