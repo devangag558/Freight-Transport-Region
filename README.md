@@ -60,19 +60,19 @@ Each microservice runs independently and registers with **Consul** for discovery
 ## ▶️ Getting Started
 
 
-### 2️⃣ Run Consul
+### 1️⃣ Run Consul
 ```bash
 consul agent -dev
 ```
 Access UI at: `http://localhost:8500`
 
-### 3️⃣ Start Microservices
+### 2️⃣ Start Microservices
 Each service can be run via:
 ```bash
 mvn spring-boot:run
 ```
 
-### 4️⃣ Access APIs via Gateway
+### 3️⃣ Access APIs via Gateway
 ```http
 http://localhost:8080/ftr/<service-endpoint>
 ```
